@@ -10,4 +10,4 @@ elif (user_choice == "rock" and computer_choice == "paper") or (user_choice == "
 elif (user_choice == "rock" and computer_choice == "scissors") or (user_choice == "scissors" and computer_choice == "paper") or (user_choice == "paper" and computer_choice == "rock"):
     print(f"You chose {user_choice}.\nThe computer chose {computer_choice}\nYou win!")        
 else:
-    print("Incorrect input, try again!")
+    print("Incorrect input, try again!")  
