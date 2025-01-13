@@ -11,8 +11,6 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 random_list =[]
 password = ""
 
-
-total_lenght = nr_letters + nr_symbols + nr_numbers
 for l in range(0, nr_letters):
     random_list += random.choice(letters)
 for s in range(0, nr_numbers):
