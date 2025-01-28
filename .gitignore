@@ -1,5 +1,2 @@
-# ignore .env files
+# ignore file
 .env
-
-# ignore resource file
-resources.py

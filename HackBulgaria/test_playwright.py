@@ -1,5 +1,4 @@
 from resources import *
-from playwright.sync_api import Page, expect
 
 def test_login_success(page):
     login_success(page)
