@@ -55,3 +55,4 @@ def delete_all_users(self):
     sleep(1)
     confirm_button = self.locator("input[type='submit']")
     confirm_button.click()
+
