@@ -1,6 +1,9 @@
 from dotenv import load_dotenv
+from playwright.sync_api import expect
 import os
+
 load_dotenv()
+
 user = os.getenv("ROOT_USER")
 password = os.getenv("ROOT_PASSWORD")
 
@@ -18,7 +21,7 @@ def login_success(self):
     login_page(self)
     user_name_pass(self)
     login_button_click(self)
-    
+
 def user_add(self):
     self.locator(".model-guest > td:nth-child(2) > a:nth-child(1)").click() # add_user_button
     self.locator("#id_first_name").fill("Kaloyan")
@@ -26,7 +29,6 @@ def user_add(self):
     self.locator("#id_email").fill("ktsonyovski@outlook.com")
     self.locator("#id_phone").fill("1234")
     self.locator(".default").click() # save_button
-    
     
 def delete_all_users(self):
     self.locator(".model-guest > td:nth-child(3) > a:nth-child(1)").click() # change_button

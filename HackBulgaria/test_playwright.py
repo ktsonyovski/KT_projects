@@ -2,6 +2,7 @@ from resources import *
 
 def test_login_success(page):
     login_success(page)
+    expect(page).to_have_url("https://automation-workshop.hacksoft.io/admin/")
 
 def test_add_user_success(page):
     login_success(page)
