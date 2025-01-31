@@ -135,18 +135,18 @@
 #     result_string = string[s : e+1]
 #     return result_string
 
-def palidrome(given_string: str):
-    last_index = len(given_string)-1
-    print(last_index)
-    line = len(given_string)//2
-    print(line)
-    for index in range(line):
-        if given_string[index] == given_string[last_index]:
-            return print("This is a palidrome")
-    return print("This is a NOT palidrome")
+# def palidrome(given_string: str):
+#     last_index = len(given_string)-1
+#     print(last_index)
+#     line = len(given_string)//2
+#     print(line)
+#     for index in range(line):
+#         if given_string[index] == given_string[last_index]:
+#             return print("This is a palidrome")
+#     return print("This is a NOT palidrome")
 
-pal = input("Give string: ")
-palidrome(pal)
+# pal = input("Give string: ")
+# palidrome(pal)
 
 # def isstringpalidrome(string: str) -> str:
 #     if not isinstance(string, str):
@@ -157,3 +157,19 @@ palidrome(pal)
 #         if string[index] == string[lastIndex-index]:
 #             return True
 #     return False
+
+
+# def reversed_string(string):
+#     rev_string = ''
+#     for char in string:
+#         rev_string = char + rev_string
+#     return rev_string
+
+# print(reversed_string("Hello World!"))
+
+# def anagrams(s1, s2):
+#     if sorted(s1.lower()) == sorted(s2.lower()):
+#         return True
+#     return False
+
+# print(anagrams("listen", "silent"))
