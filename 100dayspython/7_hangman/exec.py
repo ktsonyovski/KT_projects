@@ -32,7 +32,7 @@ if difficulty_setting in resources.words_dictionary:
             lives -= 1
             print(f"{lives} lives remaining!")
             if lives == 0:
-                print("\nLost! End.")
+                print(f"\nLost! \nThe word was {word_choice}\nEnd.")
                 end = True
         
         if "_" not in display:
