@@ -26,7 +26,7 @@ def user_add(self):
     self.locator(".model-guest > td:nth-child(2) > a:nth-child(1)").click() # add_user_button
     self.locator("#id_first_name").fill("Kaloyan")
     self.locator("#id_last_name").fill("Tsonyovski")
-    self.locator("#id_email").fill("ktsonyovski@outlook.com")
+    self.locator("#id_email").fill("bbabb@hist.com")
     self.locator("#id_phone").fill("1234")
     self.locator(".default").click() # save_button
     
