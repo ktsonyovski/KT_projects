@@ -8,7 +8,7 @@ if difficulty_setting in resources.words_dictionary:
     word_lenght = len(word_choice)
     placeholder = "_ " * word_lenght
     lives = word_lenght
-    print(f"{word_choice} \n{placeholder} ;\n {word_lenght} letters in total ; {lives} tries total")
+    print(f"{placeholder} ;\n {word_lenght} letters in total ; {lives} tries total")
 
     end = False
     save_letters = []
